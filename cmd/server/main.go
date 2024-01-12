@@ -19,7 +19,7 @@ type MetricType string
 
 const (
 	Gauge   MetricType = "gauge"
-	Counter            = "counter"
+	Counter MetricType = "counter"
 )
 
 func mainHandler(resp http.ResponseWriter, req *http.Request) {
